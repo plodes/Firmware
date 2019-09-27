@@ -1,0 +1,32 @@
+#!/bin/sh
+#
+# @name Solar-Blimp
+#
+# @type Airship/Blimp
+# @class Lighter-than-air vehicle
+#
+# @output AUX1 Motor 1
+# @output AUX2 Motor 2
+# @output AUX3 Motor 3
+# @output AUX4 Servo motor for rotor 2 and 3 arm
+#
+# @maintainer Patrick Lodes <patrick.lodes@zae-bayern.de>
+#
+
+sh /etc/init.d/rc.fw_defaults
+
+#Parameters here:
+if [ $AUTOCNF = yes ]
+then
+	# Set parameters here
+fi
+
+# Set the frame type.
+# Configure this as Airship
+set MAV_TYPE 7
+
+# Set mixer
+set MIXER skip
+set MIXER_AUX solar_blimp
+
+set PWM_OUT 1234
