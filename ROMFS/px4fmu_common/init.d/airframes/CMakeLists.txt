@@ -145,7 +145,7 @@ px4_add_romfs_files(
 	24001_dodeca_cox
 
 	# [25001] Tha' Sola Blimp
-	250001_solar_blimp
+	25001_solar_blimp
 
 	50000_generic_ground_vehicle
 	50001_axialracing_ax10
