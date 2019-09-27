@@ -2,8 +2,8 @@
 #
 # @name Solar-Blimp
 #
-# @type Airship/Blimp
-# @class Lighter-than-air vehicle
+# @type Blimp
+# @class Plane
 #
 # @output AUX1 Motor 1
 # @output AUX2 Motor 2
