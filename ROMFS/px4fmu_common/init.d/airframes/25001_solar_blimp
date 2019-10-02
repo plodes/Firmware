@@ -19,6 +19,13 @@ sh /etc/init.d/rc.fw_defaults
 if [ $AUTOCNF = yes ]
 then
 	# Set parameters here
+
+	param set PWM_AUX_DISARMED 1000
+
+	param set PWM_AUX_MIN 1100
+
+	param set PWM_AUX_MAX 2000
+
 fi
 
 # Set the frame type.
